@@ -16,3 +16,10 @@ const createWindow = () => {
 app.whenReady().then(() => {
   createWindow();
 });
+
+app.on("window-all-closed", () => {
+  if (process.platform !== "darwin") {
+    app.quit();
+  }
+});
+fix: add window-all-closed event handler for non-macOS platforms
