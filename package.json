@@ -1,0 +1,17 @@
+{
+  "name": "claritydb",
+  "version": "1.0.0",
+  "description": "A tool to generate database schemas from TypeScript/JavaScript interfaces.",
+  "license": "ISC",
+  "author": "Damian Sire",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "claritydb": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
