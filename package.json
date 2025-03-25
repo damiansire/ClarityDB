@@ -5,13 +5,14 @@
   "license": "ISC",
   "author": "Damian Sire",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "main.js",
   "bin": {
-    "claritydb": "./index.js"
+    "claritydb": "./main.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "electron": "^35.0.3"
+  }
 }
