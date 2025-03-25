@@ -22,4 +22,3 @@ app.on("window-all-closed", () => {
     app.quit();
   }
 });
-fix: add window-all-closed event handler for non-macOS platforms
